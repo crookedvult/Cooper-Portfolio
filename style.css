@@ -37,7 +37,7 @@
 }
 
 .color-picker::-webkit-color-swatch{
-  border-radius: 100x;
+  border-radius: 100px;
   border: none;
 }
 
