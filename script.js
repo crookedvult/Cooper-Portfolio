@@ -12,7 +12,9 @@ function changeColor() {
   let oppositeColor = invertColor(newValue)
   console.log(oppositeColor);
   
-  document.getElementById('color-button').style.backgroundColor = oppositeColor;
+  let colorButton = document.getElementById('color-button')
+  colorButton.style.backgroundColor = oppositeColor;
+  colorButton.style.color = newValue;
   
   const collection = document.getElementsByClassName("color-label");
   for (let i = 0; i < collection.length; i++) {
